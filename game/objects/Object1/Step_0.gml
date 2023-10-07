@@ -7,6 +7,12 @@ if(keyboard_check(vk_left)) {
 
 if(keyboard_check(vk_right)) {
 	
-	hspeed = 5
+	hspeed = 5;
+	
+}
+
+if(keyboard_check(vk_nokey)) {
+	
+	hspeed = 0;
 	
 }
