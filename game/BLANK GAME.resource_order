@@ -18,5 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Object2","order":1,"path":"objects/Object2/Object2.yy",},
   ],
 }
