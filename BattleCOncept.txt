@@ -1,0 +1,26 @@
+Exo-system of a JRPG
+The enemies are themed around stuff u could find when digitalizing yourself into the engine with the 
+ocassional leak from your own internet history/experience. So u could have cameos formt he internet.
+Combat based around cards and possibly modifying effects with code? - 
+
+keep talking nobopdy explodes
+timed logic puzzle where the battle is the puzzle and someone is on the outside with the manual?
+Combat based around knowing the enemy's object name inside the engine:
+E.X - GhostFiles.object
+Os ataques seriam funções aplicadas aos inimigos/player com um sistema de cooldowns que vêm escritas
+num manual de utilizador irl
+
+Player
+	Functions
+		CTR + Z - Heal
+		CTR + C - Halves de dmg taken in this turn and if used CTL + Z on next, mirrors the original damage
+		
+RatGod
+Ideia geral desta boss fight é ele dificultar encontrar o sue nome/mexer com o nome do player
+
+
+Batalha final à volta de descobreir o nome do deus para se poder aplicar código ao objeto que é esse mesmo
+deus. Ataca-se a criatura com o objetivo de enfraquecer o avatar ao ponto de expor o raw code.
+
+Patch-Fixer
+	Tecedeiro type of enemy
