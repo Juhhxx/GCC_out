@@ -1,0 +1,37 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>taV49hkK/ZFjUqoYd8rKhjPqxzg65kxn319L4x9VZw4=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">R/v65dy3RYxv4Z7iOBE8Qki5c1jBP5Mbd1MfV8KXnkD03Oc2TmVIxeVMfs56RlSUxHi27sEjEtlS
+/f3QXlcFFL/gDtVRF00TH+UYTyvACEUUZ4JHJbhJvuAYMKpumC1ZydunvrnjocIDxfI1W14BvQmP
+9GgboSAorV7867cvQwg=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIIB0DCCATigAwIBAgIbLTRmMzFkODdlOjEzNzA4ZTEyNTc4Oi04MDAwMA0GCSqGSIb3DQEBBQUA
+MBQxEjAQBgNVBAMTCVB5eGVsRWRpdDAeFw0xMjA0MzAxNDUwMDFaFw0xNzA1MDExNDUwMDFaMBQx
+EjAQBgNVBAMTCVB5eGVsRWRpdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAhQXecfyFw35i
+VfCYg80IW6CTZwIVImuRSFizoSHYtHea+AMdJRqlMXW9Cbr/r6EUEkpEQVJTHKoKGKTLsm8tNLGK
+TZyv3cNehiZ5LUkQ3rtpHNQR+A84pAxPw66ZYcqZBvVMyhTGpagv54HD9erWeEW6NQeE/c5VLYw1
+WxywAccCAwEAAaMXMBUwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcNAQEFBQADggCBAB7P
+Wu2GrGsPzPUPqZP3ksLggCRDzZ0Qc9SIm8i8lnMeww4q/JfA+vrcCh1ol7KTvyTsNxuaE/V0gLC9
+9bHxdplX3mEPIPefwyrGDS+x8tMdEgsjG+Fk/TCwjuTlG60EOyshQfNtPAccohxNhdMQoGmr/n7d
+W4p+ZxrPMQrX1IMu</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>unEkNIWFccNyaPtceDv3Kq8KjS7+Bj4L5Tu15FHCQdw=</DigestValue></Reference><Reference URI="icon128.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>I7azTqscM2xrLKTPLS4Zunyj8PzZrJcidO/OOpzPyqY=</DigestValue></Reference><Reference URI="icon16.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>W9/+xch0rTmmXowr1VUUTbEOjwusziTtFqSVn+8ljdw=</DigestValue></Reference><Reference URI="icon32.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>85OA7ZyUTM0UhSkdg1Txwkd6b4p910XwMOvRItTuZe8=</DigestValue></Reference><Reference URI="icon48.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>07bnE20Gqyz2w4X9pUBfHwI2EoZZKy1Q4UBW2zMakFQ=</DigestValue></Reference><Reference URI="icon64.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>U/StUQw7PKHlo6PVq/SPIDEdMIlgvp2JyM/Idnfallo=</DigestValue></Reference><Reference URI="pyxeldoc128.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>Z45jgYpk/EN/Ry0KrluRUnDVAgve2GGna1FJ74FbkBY=</DigestValue></Reference><Reference URI="pyxeldoc16.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>siUnXkcvem2jjzCheh34x1T4rt4s60JD65wADgvIRvA=</DigestValue></Reference><Reference URI="pyxeldoc32.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>DSbqsb8cAnRRt9fF5gYfNj4akINBLO3q/7EMYh8VeBI=</DigestValue></Reference><Reference URI="pyxeldoc48.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>WbQe0HBnypv7FboBlcC4cVLk3fytbuVfQ7xnyQd6FRs=</DigestValue></Reference><Reference URI="pyxeldoc64.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>6vFhqEfkiM2lI/I74/+hh/w6MsXOdve/dnnQRVZOZ2o=</DigestValue></Reference><Reference URI="PyxelEdit.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>HyQixaRhSnjDol2hJzLhCaY8mErHnKS0sPEeJq/UasM=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    
+  </Signature>
+</signatures>

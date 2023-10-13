@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/3.1">
+	
+	<id>PyxelEdit</id>
+	<versionNumber>0.2.222</versionNumber>
+	<filename>PyxelEdit</filename>
+	
+	<name>PyxelEdit</name>
+	<description>Pixel art editor</description> 
+	<copyright>Daniel Kvarfordt</copyright> 
+	
+	<initialWindow>
+		<title>PyxelEdit</title>
+		<content>PyxelEdit.swf</content>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>true</maximizable>
+		<resizable>true</resizable>
+	</initialWindow>
+	
+    <fileTypes>
+        <fileType>
+            <name>danik.PyxelDoc</name>
+            <extension>pyxel</extension>
+            <description>PyxelEdit Document</description>
+            <contentType>application/pyxel.image-file</contentType>
+            <icon>
+				<image16x16>pyxeldoc16.png</image16x16>
+				<image32x32>pyxeldoc32.png</image32x32>
+				<image48x48>pyxeldoc48.png</image48x48>
+                <image128x128>pyxeldoc128.png</image128x128>
+            </icon>
+        </fileType>
+    </fileTypes>
+	
+    <icon>
+		<image16x16>icon16.png</image16x16>
+		<image32x32>icon32.png</image32x32>
+		<image48x48>icon48.png</image48x48>
+		<image128x128>icon128.png</image128x128>
+    </icon>
+
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
